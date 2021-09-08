@@ -1,0 +1,104 @@
+@import "../../../sass/styles.scss";
+
+.container {
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 47px;
+  background-image: url("https://www.hackeru.co.il/assets/site/images/bg_4.png");
+
+  .company-advantages {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    font-size: 14px;
+    @include fadeInUp-animation();
+
+    .title {
+      width: 300px;
+      margin: 0 auto;
+      margin-bottom: 40px;
+      font-size: 44px;
+      font-weight: 700;
+      color: $text-color-primary;
+      line-height: 1.1;
+    }
+
+    .advantages {
+      width: 300px;
+      margin: 0 auto;
+      list-style: none;
+
+      .advantage {
+        width: 100%;
+        margin-bottom: 47px;
+
+        .image-container {
+          width: 70px;
+
+          .image {
+            width: 50px;
+            margin-top: 15px;
+            vertical-align: middle;
+          }
+        }
+
+        .content {
+          width: 100%;
+          color: $text-color-primary;
+
+          .label {
+            font-size: 21px;
+            font-weight: 700;
+          }
+
+          .text {
+            font-size: 18px;
+            margin-bottom: 10px;
+          }
+
+          .link {
+            font-size: 18px;
+            color: $text-color-secondary;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 961px) {
+  .container {
+    .company-advantages {
+      .title {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      .advantages {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .advantage {
+          width: 462px;
+          display: flex;
+
+          .image-container {
+            min-width: 70px;
+          }
+
+          .content {
+            .text {
+              width: 322px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+

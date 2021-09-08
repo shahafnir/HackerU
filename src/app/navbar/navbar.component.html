@@ -1,0 +1,448 @@
+<div class="navbar-container">
+  <div class="content">
+    <div class="company-logo">
+      <img
+        src="https://www.hackeru.co.il/assets/site/images/logo.png"
+        alt="תמונת לוגו של מכללת האקריו"
+      />
+    </div>
+    <ul class="nav-menu desktop">
+      <li class="category">
+        <a class="label" (click)="expandCategory(coursesDesktop)">
+          קורסים
+          <img
+            src="../../assets/images/navbar/down-arrow.svg"
+            alt="down arrow"
+          />
+        </a>
+        <ul id="courses" class="items" #coursesDesktop>
+          <ul class="column">
+            <li class="item">
+              <a href="" class="link">קורס סייבר ואבטחת מידע Ethical Hacking</a>
+            </li>
+            <li class="item">
+              <a href="" class="link"
+                >קורס ניהול רשתות, אבטחת מידע ומחשוב ענן</a
+              >
+            </li>
+            <li class="item">
+              <a href="" class="link"
+                >קורס שיווק דיגיטלי - קורס קידום אתרים, רשתות חברתיות, פרסום
+                ומכירות באינטרנט</a
+              >
+            </li>
+            <li class="item">
+              <a href="" class="link">קורס QA בודק תוכנה</a>
+            </li>
+          </ul>
+          <ul class="column">
+            <li class="item">
+              <a href="" class="link">קורס עיצוב גרפי עם התמחות ב-UI/UX</a>
+            </li>
+            <li class="item">
+              <a href="" class="link"
+                >קורס בניית אתרים - Full Stack Development</a
+              >
+            </li>
+            <li class="item">
+              <a href="" class="link"
+                >קורס פיתוח אפליקציות ל-Android ול-iPhone</a
+              >
+            </li>
+            <li class="item">
+              <a href="" class="link">קורס ניהול שרתי לינוקס (Linux)</a>
+            </li>
+          </ul>
+          <ul class="column">
+            <li class="item">
+              <a href="" class="link"
+                >קורס אנימציה תלת מימדית תוכנת מאיה עם התמחות ב-ZBrush</a
+              >
+            </li>
+            <li class="item">
+              <a href="" class="link">קורס פיתוח משחקים Gaming & VR</a>
+            </li>
+            <li class="item">
+              <a href="" class="link">קורס DBA Master</a>
+            </li>
+            <li class="item">
+              <a href="" class="link">קורס פיתוח תוכנה NET Core.</a>
+            </li>
+            <li class="item">
+              <a href="" class="link">קורס מפתחי אוטומציה ל-QA</a>
+            </li>
+          </ul>
+        </ul>
+      </li>
+      <li class="category">
+        <a class="label" (click)="expandCategory(aboutUsDesktop)">
+          אודות
+          <img
+            src="../../assets/images/navbar/down-arrow.svg"
+            alt="down arrow"
+          />
+        </a>
+        <ul class="items" #aboutUsDesktop>
+          <li class="item">
+            <a href="" class="link">אודות האקריו</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">שאלות נפוצות</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">מרכז בחינות הסמכה</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">דרושים</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">לוח חופשות</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">מהעיתונות</a>
+          </li>
+        </ul>
+      </li>
+      <li class="category">
+        <a class="label" (click)="expandCategory(whyUsDesktop)">
+          למה HackerU
+          <img
+            src="../../assets/images/navbar/down-arrow.svg"
+            alt="down arrow"
+          />
+        </a>
+        <ul class="items" #whyUsDesktop>
+          <li class="item">
+            <a href="" class="link">איך זה עובד</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">התחייבות חוזית לעבודה</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">סגל מרצים מנצח</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">תכנית לימודים מקיפה</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">מיקום מרכזי</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">הסבת אקדמאים</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">HackerU Freelance</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">השלמה לתואר ראשון</a>
+          </li>
+        </ul>
+      </li>
+      <li class="category">
+        <a class="label" (click)="expandCategory(placementDesktop)">
+          השמה
+          <img
+            src="../../assets/images/navbar/down-arrow.svg"
+            alt="down arrow"
+          />
+        </a>
+        <ul class="items" #placementDesktop>
+          <li class="item">
+            <a href="" class="link">השמה</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">משרות בלעדיות לסטודנטים</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">חברות איתן אנו עובדים</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">מחפשים עובדים?</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">בניית קריירה בהייטק</a>
+          </li>
+        </ul>
+      </li>
+      <li class="category">
+        <a class="label" (click)="expandCategory(mapsDesktop)">
+          מפות הגעה
+          <img
+            src="../../assets/images/navbar/down-arrow.svg"
+            alt="down arrow"
+          />
+        </a>
+        <ul class="items" #mapsDesktop>
+          <li class="item">
+            <a href="" class="link">מפות הגעה</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">לימודים במרכז - רמת גן</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">לימודים בחיפה</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">לימודים בירושלים</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">לימודים בבאר שבע</a>
+          </li>
+        </ul>
+      </li>
+      <li class="category">
+        <a class="label" (click)="expandCategory(successStoriesDesktop)">
+          סיפורי הצלחה
+          <img
+            src="../../assets/images/navbar/down-arrow.svg"
+            alt="down arrow"
+          />
+        </a>
+        <ul class="items" #successStoriesDesktop>
+          <li class="item">
+            <a href="" class="link">סיפורי הצלחה</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">עדויות בוגרים</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">עדויות מעסיקים</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">עבודות בוגרים</a>
+          </li>
+        </ul>
+      </li>
+      <li class="category">
+        <a href="" class="label"> השכרת כיתות </a>
+      </li>
+    </ul>
+    <div
+      class="nav-button"
+      (click)="expandNavMenu()"
+      [ngClass]="{ toggled: isNavMenuOpen }"
+    >
+      <div class="bar first"></div>
+      <div class="bar second"></div>
+      <div class="bar third"></div>
+    </div>
+    <div class="tag">
+      חייל
+      <br />
+      משוחרר?
+      <br />
+      <div class="link-container">
+        <a href="" class="link">לחץ/י כאן</a>
+      </div>
+    </div>
+  </div>
+  <ul class="nav-menu mobile" [ngClass]="{ expanded: isNavMenuOpen }">
+    <li class="category">
+      <a class="label" (click)="expandCategory(courses)">
+        קורסים
+        <img
+          src="../../assets/images/navbar/chevron-down.png"
+          alt="down arrow"
+        />
+      </a>
+      <ul class="items" #courses>
+        <li class="item">
+          <a href="" class="link">קורס סייבר ואבטחת מידע Ethical Hacking</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">קורס ניהול רשתות, אבטחת מידע ומחשוב ענן</a>
+        </li>
+        <li class="item">
+          <a href="" class="link"
+            >קורס שיווק דיגיטלי - קורס קידום אתרים, רשתות חברתיות, פרסום ומכירות
+            באינטרנט</a
+          >
+        </li>
+        <li class="item">
+          <a href="" class="link">קורס QA בודק תוכנה</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">קורס עיצוב גרפי עם התמחות ב-UI/UX</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">קורס בניית אתרים - Full Stack Development</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">קורס פיתוח אפליקציות ל-Android ול-iPhone</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">קורס ניהול שרתי לינוקס (Linux)</a>
+        </li>
+        <li class="item">
+          <a href="" class="link"
+            >קורס אנימציה תלת מימדית תוכנת מאיה עם התמחות ב-ZBrush</a
+          >
+        </li>
+        <li class="item">
+          <a href="" class="link">קורס פיתוח משחקים Gaming & VR</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">קורס DBA Master</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">קורס פיתוח תוכנה NET Core.</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">קורס מפתחי אוטומציה ל-QA</a>
+        </li>
+      </ul>
+    </li>
+    <li class="category">
+      <a class="label" (click)="expandCategory(aboutUs)">
+        אודות
+        <img
+          src="../../assets/images/navbar/chevron-down.png"
+          alt="down arrow"
+        />
+      </a>
+      <ul class="items" #aboutUs>
+        <li class="item">
+          <a href="" class="link">אודות האקריו</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">שאלות נפוצות</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">מרכז בחינות הסמכה</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">דרושים</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">לוח חופשות</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">מהעיתונות</a>
+        </li>
+      </ul>
+    </li>
+    <li class="category">
+      <a class="label" (click)="expandCategory(whyUs)">
+        למה HackerU
+        <img
+          src="../../assets/images/navbar/chevron-down.png"
+          alt="down arrow"
+        />
+      </a>
+      <ul class="items" #whyUs>
+        <li class="item">
+          <a href="" class="link">איך זה עובד</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">התחייבות חוזית לעבודה</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">סגל מרצים מנצח</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">תכנית לימודים מקיפה</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">מיקום מרכזי</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">הסבת אקדמאים</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">HackerU Freelance</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">השלמה לתואר ראשון</a>
+        </li>
+      </ul>
+    </li>
+    <li class="category">
+      <a class="label" (click)="expandCategory(placement)">
+        השמה
+        <img
+          src="../../assets/images/navbar/chevron-down.png"
+          alt="down arrow"
+        />
+      </a>
+      <ul class="items" #placement>
+        <li class="item">
+          <a href="" class="link">השמה</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">משרות בלעדיות לסטודנטים</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">חברות איתן אנו עובדים</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">מחפשים עובדים?</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">בניית קריירה בהייטק</a>
+        </li>
+      </ul>
+    </li>
+    <li class="category">
+      <a class="label" (click)="expandCategory(maps)">
+        מפות הגעה
+        <img
+          src="../../assets/images/navbar/chevron-down.png"
+          alt="down arrow"
+        />
+      </a>
+      <ul class="items" #maps>
+        <li class="item">
+          <a href="" class="link">מפות הגעה</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">לימודים במרכז - רמת גן</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">לימודים בחיפה</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">לימודים בירושלים</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">לימודים בבאר שבע</a>
+        </li>
+      </ul>
+    </li>
+    <li class="category">
+      <a class="label" (click)="expandCategory(successStories)">
+        סיפורי הצלחה
+        <img
+          src="../../assets/images/navbar/chevron-down.png"
+          alt="down arrow"
+        />
+      </a>
+      <ul class="items" #successStories>
+        <li class="item">
+          <a href="" class="link">סיפורי הצלחה</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">עדויות בוגרים</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">עדויות מעסיקים</a>
+        </li>
+        <li class="item">
+          <a href="" class="link">עבודות בוגרים</a>
+        </li>
+      </ul>
+    </li>
+    <li class="category">
+      <a href="" class="label"> בלוג </a>
+    </li>
+    <li class="category" id="lastCategory">
+      <a href="" class="label"> השכרת כיתות </a>
+    </li>
+  </ul>
+  <div class="banner">
+    <div class="text">
+      המרכז להשמה והכשרת עובדים למקצועות ההייטק
+      <br />
+      <span class="bigger"> מספר אחת בהשמת בוגרים בהייטק! </span>
+    </div>
+  </div>
+</div>
